@@ -1,0 +1,26 @@
+@import "../../global/style/global";
+
+[data-button] {
+  display: flex;
+}
+
+[data-subscribe] {
+  @include button(1rem, #fff);
+  background-color: rgb(200, 0, 0);
+  width: 105px;
+}
+
+[data-join] {
+  @include button(1rem, rgb(63, 63, 255));
+
+  background-color: #fff;
+  border-color: rgb(63, 63, 255);
+  width: 62px;
+}
+
+[data-twitter] {
+  @include button(1rem, #fff);
+  background-color: rgb(2, 158, 255);
+  width: 70px;
+  border-radius: 8px;
+}
