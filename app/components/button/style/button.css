@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+[data-button] {
+  display: flex;
+}
+
+[data-subscribe] {
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  border-style: solid;
+  height: 36px;
+  font-weight: bold;
+  background-color: #c80000;
+  width: 105px;
+}
+
+[data-join] {
+  color: #3f3fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  border-style: solid;
+  height: 36px;
+  font-weight: bold;
+  background-color: #fff;
+  border-color: #3f3fff;
+  width: 62px;
+}
+
+[data-twitter] {
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  border-style: solid;
+  height: 36px;
+  font-weight: bold;
+  background-color: #029eff;
+  width: 70px;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=button.css.map */
