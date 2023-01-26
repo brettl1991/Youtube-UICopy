@@ -3,7 +3,7 @@
 [data-subscribe] {
   @include button(1rem, #fff);
   background-color: rgb(200, 0, 0);
-  width: 105px;
+
   transition: opacity 0.15s;
   border: none;
 
@@ -17,15 +17,15 @@
 }
 
 [data-join] {
-  @include button(1rem, rgb(41, 118, 211));
+  @include button(1rem, rgb(6, 96, 212));
 
   background-color: #fff;
-  border-color: rgb(41, 118, 211);
-  width: 62px;
+  border-color: rgb(6, 96, 212);
+
   transition: background-color 0.15s, color 0.15s;
 
   &:hover {
-    background-color: rgb(41, 118, 211);
+    background-color: rgb(6, 96, 212);
     color: #fff;
   }
 
@@ -37,7 +37,7 @@
 [data-twitter] {
   @include button(1rem, #fff);
   background-color: rgb(2, 158, 255);
-  width: 74px;
+
   border: none;
   border-radius: 18px;
   font-weight: bold;

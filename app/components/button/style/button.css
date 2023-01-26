@@ -4,9 +4,9 @@
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
-  height: 36px;
+  padding: 10px;
+  vertical-align: top;
   background-color: #c80000;
-  width: 105px;
   transition: opacity 0.15s;
   border: none;
 }
@@ -18,19 +18,19 @@
 }
 
 [data-join] {
-  color: #2976d3;
+  color: #0660d4;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
-  height: 36px;
+  padding: 10px;
+  vertical-align: top;
   background-color: #fff;
-  border-color: #2976d3;
-  width: 62px;
+  border-color: #0660d4;
   transition: background-color 0.15s, color 0.15s;
 }
 [data-join]:hover {
-  background-color: #2976d3;
+  background-color: #0660d4;
   color: #fff;
 }
 [data-join]:active {
@@ -43,9 +43,9 @@
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
-  height: 36px;
+  padding: 10px;
+  vertical-align: top;
   background-color: #029eff;
-  width: 74px;
   border: none;
   border-radius: 18px;
   font-weight: bold;
