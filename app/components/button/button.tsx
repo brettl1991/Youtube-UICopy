@@ -11,15 +11,9 @@ const buttonLink: LinksFunction = () => [
 
 const Button = ({ children, twitter, subscribe, join }: any) => {
   return (
-    <div data-button>
-      <button
-        data-twitter={twitter}
-        data-subscribe={subscribe}
-        data-join={join}
-      >
-        {children}
-      </button>
-    </div>
+    <button data-twitter={twitter} data-subscribe={subscribe} data-join={join}>
+      {children}
+    </button>
   );
 };
 
