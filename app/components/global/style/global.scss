@@ -1,15 +1,8 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 @mixin button($fontsize, $color) {
   color: $color;
   font-size: $fontsize;
-  border: none;
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
   height: 36px;
-  font-weight: bold;
 } ;

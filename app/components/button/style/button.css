@@ -1,51 +1,58 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-[data-button] {
-  display: flex;
-}
-
 [data-subscribe] {
   color: #fff;
   font-size: 1rem;
-  border: none;
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
   height: 36px;
-  font-weight: bold;
   background-color: #c80000;
   width: 105px;
+  transition: opacity 0.15s;
+  border: none;
+}
+[data-subscribe]:hover {
+  opacity: 0.8;
+}
+[data-subscribe]:active {
+  opacity: 0.5;
 }
 
 [data-join] {
-  color: #3f3fff;
+  color: #2976d3;
   font-size: 1rem;
-  border: none;
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
   height: 36px;
-  font-weight: bold;
   background-color: #fff;
-  border-color: #3f3fff;
+  border-color: #2976d3;
   width: 62px;
+  transition: background-color 0.15s, color 0.15s;
+}
+[data-join]:hover {
+  background-color: #2976d3;
+  color: #fff;
+}
+[data-join]:active {
+  opacity: 0.7;
 }
 
 [data-twitter] {
   color: #fff;
   font-size: 1rem;
-  border: none;
   cursor: pointer;
   border-radius: 2px;
   border-style: solid;
   height: 36px;
-  font-weight: bold;
   background-color: #029eff;
-  width: 70px;
-  border-radius: 8px;
+  width: 74px;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+}
+[data-twitter]:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=button.css.map */
